@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 실무에서 사용하는 방법
+    *{
+      box-sizing: border-box;
+    } */
+
+    .container{
+      width: 500px; 
+      height: 500px;
+      background: orange;
+      margin: 100px;
+      /* padding을 쓰면 박스 크기가 변함
+      사용 하려면 가로세로의 길이를 사용한만큼 줄여줘야함
+      자동으로 조절하는 속성이 box-sizing:border-box */
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 40px;
+      padding-bottom: 30px;
+      box-sizing: border-box;
+    }
+
+    .box{
+      width: 50%;
+      height: 50%;
+      background: tomato;
+      font-size: 1.5em;
+      color: white;
+
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card{
+      width: 250px;
+      height: 350px;
+      border: 2px solid gray;
+      margin: 50px auto;
+      border-radius: 15px;
+      box-shadow: 2px 2px 5px 5px #999;
+      padding: 10px;
+    }
+    .card .image{
+      border: 2px solid lightgray;
+      height: 250px;
+      border-radius: 15px;
+      overflow: hidden;
+     
+      
+    }
+    .card .content{
+      
+    }
+    .card .image img{
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="card">
+    <div class="image">
+      <img src="https://i.namu.wiki/i/JPjBj5O9GazeoPx1vXS5nUt7AQLZsE6oAPRvFGqPd0p1FKd9WG70v5Rd22w-0af64ZGplG1Kiq625vqtgyBJ1A.webp" alt="">
+    </div>
+    <p class="content">
+      ㄴ냐냐냔ㄴ
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="box">안농안농</div>
+  </div>
+
+
+
+</body>
+</html>
