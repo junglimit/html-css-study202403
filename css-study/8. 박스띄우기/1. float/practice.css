@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 650px;
+  border: 2px double #102340;
+  margin: 10px auto;
+}
+.box1{
+  width: 100%;
+  height: 80px;
+  font-size: 32px;
+  font-family: cursive;
+  text-align: center;
+  background: lightgray;
+  padding-top: 20px;
+}
+.box2{
+  width: 100%;
+  height: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background: #4d4d4d;
+  padding-top: 8px;
+}
+.box3{
+  width: 100%;
+  height: 250px;
+  background: gray;
+  
+}
+.clear::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.box3 .card1{
+  width: 23%;
+  height: 230px;
+  border: 1px solid #ffffff;
+  float: left;
+  margin: 5px;
+  margin-left: 10px;
+  padding: 120px 5px 5px;
+  background: #ff0000 url(../../../img/tulip.jpg) no-repeat top/contain;
+  
+}
+.box3 .card2{
+  width: 23%;
+  height: 230px;
+  border: 1px solid #ffffff;
+  float: left;
+  margin: 5px;
+  background: #f200ff url(../../../img/jebi.jpg)no-repeat top/contain;
+  padding: 120px 5px 5px;
+}
+.box3 .card3{
+  width: 23%;
+  height: 230px;
+  border: 1px solid #ffffff;
+  float: left;
+  margin: 5px;
+  background:#ff8800 url(../../../img/hobak.jpg)no-repeat top/contain;
+  padding: 120px 5px 5px;
+}
+.box3 .card4{
+  width: 23%;
+  height: 230px;
+  border: 1px solid #ffffff;
+  float: left;
+  margin: 5px;
+  background: #fff200 url(../../../img/sunflower.jpg)no-repeat top/contain;
+  padding: 120px 5px 5px;
+}
+span{
+  color: yellow;
+  font-size: 17px;
+}
