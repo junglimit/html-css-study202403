@@ -1,0 +1,133 @@
+@import url(../../common.css);
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  font-family: '굴림', 'Gulim', serif;
+}
+#wrapper{
+  width: 70%;
+  margin: 0 auto;
+  background: #fff;
+  font-family: 'NGothic', sans-serif;
+}
+#wrapper header{
+  background: rgb(251, 168, 59);
+  color: #fff;
+  text-align: center;
+
+}
+#wrapper header h1{
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+}
+#wrapper header span{
+ font-size: 0.2em;
+ display: block;
+ padding-bottom: 5px;
+}
+#wrapper header h2{
+  font-size: 0.4em;
+  color: #333;
+  height: 5%;
+  background: #ccc;
+}
+.container .side-menu{
+  width: 20%;
+  float: left;
+}
+.container .side-menu h3{
+  
+  background: rgb(155, 1, 1);
+  color: #fff;
+  font-size: 8px;
+  padding-left: 5px;
+  padding-top: 2px;
+  
+}
+.container .side-menu ul{
+  
+  font-size: 8px;
+  font-weight: bold;
+  text-decoration-line: underline;
+  padding: 5px;
+  line-height: 15px;
+}
+.main-content{
+  width: 60%;
+  background: #c2c1c1;
+  font-size: 10px;
+  float: left;
+  z-index: -1;
+}
+.main-content .art-piece{
+  padding: 5px;
+}
+.main-content .art-piece .title{
+  background: #123456;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 3px;
+}
+.main-content .art-piece .artist{
+  font-size: 10px;
+  padding-top: 5px;
+  color: #123456;
+}
+.main-content .art-piece .detail{
+  font-size: 8px;
+  padding-top: 5px;
+}
+.banner{
+  width: 20%;
+  font-size: 9px;
+  font-weight: bold;
+  float: left;
+  padding: 5px;
+  
+}
+.banner h3{
+  margin-bottom: 10px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+.banner h3 strong{
+  
+}
+.all{
+  color: #ccc;
+  text-decoration-line: underline;
+  letter-spacing: 0.5px;
+
+}
+.love{
+  color: rgb(251, 168, 59);
+  text-decoration-line: underline;
+  
+}
+
+.link li a{
+  font-size: 8px;
+  font-weight: bold;
+  text-decoration-line: underline;
+  
+  
+}
+.link li span{
+  font-size: 6px;
+}
+footer{
+  background: #123456;
+  color: #fff;
+  font-size: 9px;
+  text-align: center;
+}
